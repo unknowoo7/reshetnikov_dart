@@ -9,5 +9,14 @@
 import "dart:io";
 
 void main() {
+  List<int> numbers = [11, 13, 20, 3, 30, 17, 40];
+  var filter = createFilter(numbers)(5);
   
+  print(filter); 
+}
+
+List<int> Function(int) createFilter(List<int> numbers) {
+  return (int n) {
+    return numbers.where((number) => number % n == 0).toList();
+  };
 }

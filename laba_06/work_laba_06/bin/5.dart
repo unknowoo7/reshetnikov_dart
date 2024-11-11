@@ -9,5 +9,20 @@
 import "dart:io";
 
 void main() {
-  
+  print("Result 10 > 5: ${comparison(">")(10, 5)}");
+  print("Result 10 < 5: ${comparison("<")(10, 5)}");
+  print("Result 10 = 5: ${comparison("=")(10, 5)}");
+}
+
+bool Function(int, int) comparison(String operator) {
+  switch(operator) {
+    case ">": 
+      return (int a, int b) => a > b;
+    case "<": 
+      return (int a, int b) => a < b;
+    case "=": 
+      return (int a, int b) => a == b;
+    default:
+      return (int a, int b) => false;
+  }
 }
