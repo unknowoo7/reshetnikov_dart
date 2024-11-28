@@ -1,0 +1,1 @@
+Average of numbers: 45.869565217391305

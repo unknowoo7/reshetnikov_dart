@@ -1,0 +1,51 @@
+{
+    "name": "The Foodie's Haven",
+    "location": {
+        "address": "123 Main Street",
+        "city": "Moscow",
+        "zipcode": "10001"
+    },
+    "cuisine": [
+        "Italian",
+        "Mexican",
+        "Asian"
+    ],
+    "menu": [
+        {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "ingredients": [
+                "pasta",
+                "bacon",
+                "eggs",
+                "cheese"
+            ]
+        },
+        {
+            "name": "Taco Platter",
+            "price": 9.99,
+            "ingredients": [
+                "tortillas",
+                "beef",
+                "lettuce",
+                "salsa"
+            ]
+        }
+    ],
+    "reviews": [
+        {
+            "username": "FoodLover123",
+            "rating": 4,
+            "comment": "The pasta was amazing!",
+            "date": "2021-08-15"
+        },
+        {
+            "username": "GourmetChef",
+            "rating": 5,
+            "comment": null,
+            "date": "2021-08-18"
+        }
+    ],
+    "phone": "+7 123-456-7890",
+    "website": "https://www.myfood.ru"
+}
